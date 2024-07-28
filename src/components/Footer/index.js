@@ -92,12 +92,13 @@ function Footer() {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#certifications">Certifications</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Tharushi ranasinghe. All rights reserved.
+          &copy; 2024 Tharushi Ranasinghe. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
