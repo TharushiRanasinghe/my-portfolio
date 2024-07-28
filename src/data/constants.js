@@ -353,6 +353,25 @@ export const Bio = {
     },
   ];
   
+  export const certifications = [
+    {
+      id: 0,
+      img: "",
+      name: "",
+      date: "",
+      offered_by:"",
+      credentials: "",
+      c_image:"",
+      skills: [
+        
+      ],
+      desc: "",
+      
+    },
+    
+    
+  ];
+  
   export const TimeLineData = [
     { year: 2022, text: "Started my journey" },
     { year: 2024, text: "Worked as a Intern Software Engineer" },
