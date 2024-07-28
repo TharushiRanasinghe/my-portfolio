@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import {useState } from "react";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Certifications  from "./components/Certifications";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -50,6 +51,9 @@ function App() {
             <Projects openModel={openModal} setOpenModel={setOpenModal}/>
             <Wrapper>
               <Education/>
+              <Certifications/>
+            </Wrapper>
+            <Wrapper>
               <Contact/>
             </Wrapper>
             <Footer/>
