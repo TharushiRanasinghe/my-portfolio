@@ -1,0 +1,359 @@
+export const Bio = {
+    name: "Tharushi Ranasinghe",
+    roles: [
+      "CS Undergraduate",
+      "Intern Software Engineer",
+    ],
+    description:
+      "Passionate and dedicated 2nd year computer science undergraduate with a solid background in machine learning and algorithms, interested in software engineering.I am excited about the opportunity to learn and contribute as an intern and collaborate with a dynamic team to tackle challenges and gain valuable experience.",
+    github: "https://github.com/TharushiRanasinghe",
+    resume:
+      "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/tharushi-ranasinghe-b11a22257/",
+  };
+  
+  export const skills = [
+    {
+      title: "Programming Languages",
+      skills: [
+        {
+          name: "Java",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        },
+        {
+          name: "Python",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+      ],
+    },
+    {
+      title: "Frontend Development",
+      skills: [
+        {
+          name: "React Js",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "Angular",
+          image:
+            "https://angular.io/assets/images/logos/angular/angular.svg",
+        },
+        {
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+      ],
+    },
+    {
+      title: "Backend Development",
+      skills: [
+        {
+          name: "SpringBoot",
+          image:
+            "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+        },
+      ]  
+    },
+    {
+      title: "Mobile App Development",
+      skills: [
+        {
+          name: "React Native",
+          image:
+            "https://reactnative.dev/img/header_logo.svg",
+        },
+        {
+          name: "Android Studio",
+          image:
+            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+        },
+      ],
+    },
+    {
+      title: "Database",
+      skills: [
+        {
+          name: "SQL Server",
+          image:
+            "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
+        },
+        {
+          name: "MySQL",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        },
+        {
+          name: "MongoDB",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        },
+        {
+          name: "Firebase",
+          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        },
+      ],
+    },
+    {
+      title: "Others",
+      skills: [
+        {
+          name: "Git",
+          image:
+            "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+        },
+        {
+          name: "GitHub",
+          image:
+            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        },
+        {
+          name: "Bitbucket",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bitbucket-Logo-blue.svg",
+        },
+        {
+          name: "Postman",
+          image:
+            "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+        },
+        {
+          name: "Figma",
+          image:
+            "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+        },
+      ],
+    },
+  ];
+  
+  export const experiences = [
+    {
+      id: 0,
+      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.otrwheel.com%2Flocations%2F&psig=AOvVaw3xwlhHBgNEsFBe0TtgZs1J&ust=1722236977117000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiprJKXyYcDFQAAAAAdAAAAABAI",
+      role: "Software Engineer Intern",
+      company: "OTR Lanka",
+      date: "June 2024 - Present",
+      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    },
+    
+    
+  ];
+  
+  export const education = [
+    {
+      id: 0,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      school: "University of Westminster",
+      date: "Oct 2022 - Sep 2026",
+      grade: "2nd Year",
+      desc: "I am a second-year undergraduate student at University of Westminster affiliated with Informatics Institute of Technology -Sri Lanka, focusing on software engineering with hands-on experience in Python, Java, Object-Oriented Programming, R, data structures and algorithms, web development technologies(HTML, CSS, JavaScript, React.js), and database management (MySQL, Firebase). I am committed to enhancing my problem-solving skills and creativity through practical projects and teamwork.",
+      degree: "BSc(Hons) Computer Science",
+    },
+    {
+      id: 1,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      school: "Universty of Colombo",
+      date: "Apr 2022 - Nov 2023",
+      grade: "Distinction - Higher Level",
+      desc: "Completed a comprehensive English language program, enhancing my communication skills in both written and spoken English. This course has significantly improved my ability to articulate ideas clearly, engage in effective professional communication, and contribute to collaborative environments.",
+      degree: "Certificate Course In English Language - No.43",
+    },
+    {
+      id: 2,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      school: "Rathnavali Balika Vidyalaya - Gampaha",
+      date: "Jan 2012 - Feb 2022",
+      grade: "1B and 2Cs' in Mathematics Stream",
+      desc: "",
+      degree: "Advanced Level Examination",
+    },
+  ];
+  
+  export const projects = [
+    {
+      id: 0,
+      title: "Machine Learning-Driven Data Analysis & Forecasting",
+      date: "January 2024 - May 2024",
+      description:
+        "Analyzing a dataset of 2700 varieties of white wine from Portugal to relate their chemical properties to quality rankings using clustering techniques. Tasks include data preprocessing, determining the optimal number of clusters, performing k-means clustering, and applying PCA for dimensionality reduction. The second part focuses on forecasting the USD/EUR exchange rate using a multilayer neural network with an autoregressive approach. Implement all tasks in R Studio.",
+      image:
+        "",
+      tags: [
+        "R",
+        "Data Mining",
+        "Neural Network",
+      ],
+      category: "machine learning",
+      github: "https://github.com/TharushiRanasinghe/Machine-Learning-Driven-Data-Analysis-Forecasting",
+      webapp: "",
+    },
+    {
+      id: 1,
+      title: "HealthCare API - RESTful Implementation",
+      date: "March 2024 - May 2024",
+      description:
+        "A Health System API adhering to RESTful principles and leveraging the JAX-RS framework in Java, emphasizing comprehensive healthcare management functionalities.",
+      image:
+        "",
+      tags: [
+        "Java",
+        "Jax-RS",
+        "Postman API",
+        "Tomcat",
+        "Application Programming Interfaces(API)",
+      ],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/HealthCare-API-RESTful-Implementation",
+      webapp: "",
+    },
+    {
+      id: 2,
+      title: "Optimal Ice-Slide Puzzle Solver",
+      date: "March 2024 - April 2024",
+      description:
+        "An optimal path-finding algorithm in Java for solving frictionless sliding puzzles, showcasing expertise in data structures, algorithm design, and performance analysis. Utilized custom data structures and Dijkstra's algorithm to achieve efficient solutions.",
+      image:
+        "",
+      tags: [
+        "Java",
+        "Data Structures",
+        "Algorithm Development",
+        "Dijkstra's Algorithm",
+      ],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/Optimal-Ice-Slide-Puzzle-Solver",
+      webapp: "",
+    },
+    {
+      id: 3,
+      title: "Rx-Solve",
+      date: "October 2023 - March 2024",
+      description:
+        "Implemented a mobile application using Expo react-native. This project focuses on improving how patients acquire medications by utilizing technology. Through our application, users can easily upload prescriptions and search for medications. Registered pharmacies keep medication availability updated in real-time through the app, providing users with instant information.",
+      image:
+        "",
+      tags: ["React Native", "Firebase", "User Interface Design", "Figma",],
+      category: "android app",
+      github: "",
+      webapp: "",
+      member: [
+        {
+          name: "Tharushi Ranasinghe",
+          img: "",
+          linkedin: "",
+          github: "",
+        },
+        {
+          name: "Harindu Samarasinghe",
+          img: "",
+          linkedin: "",
+          github: "",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Online shopping system management",
+      date: "November 2023 - January 2024",
+      description:
+        "This is an object-oriented programming (OOP) project implemented in Java. The project manages an online shopping system across three phases: design and class creation using UML diagrams, console menu integration for manager actions, and a Graphical User Interface (GUI) for user interaction.",
+      image:
+        "",
+      tags: ["Java", "Object-Oriented Programming(OOP)", "Java Swing", "Graphical User Interface(GUI)"],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/Online-shopping-system-management",
+      webapp: "",
+    },
+    {
+      id: 5,
+      title: "ATM Simulator System",
+      date: "October 2023 - December 2023",
+      description:
+        "A Java-based ATM Simulator System developed using NetBeans IDE and MySQL database. The system faithfully replicates standard ATM functionalities, including account creation, deposits, withdrawals, mini statements, and PIN changes.",
+      image:
+        "",
+      tags: ["Java", "MySQL", "Java Swing","Graphical User Interface(GUI)"],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/ATM-Simulator-System",
+      webapp: "",
+    },
+    {
+      id: 6,
+      title: "Responsive Multi Page Website",
+      date: "June 2023 - July 2023",
+      description:
+        "Developed a responsive university website using HTML, CSS, and PHP, ensuring user-friendly navigation and enhanced design across various devices. Limited server-side functionalities, including a contact form for inquiries.",
+      image:
+        "",
+      tags: ["HTML5", "CSS", "PHP"],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/Responsive-Multi-Page-Website",
+      webapp: "",
+    },
+    {
+      id: 7,
+      title: "Lotus Travelers",
+      date: "February 2023 - March 2023",
+      description:
+        " A complete traveling website using HTML, CSS, and JS. I was assigned to complete the website's main page, comment form, history of the Kandy page, and external style sheet.",
+      image:
+        "",
+      tags: ["HTML5", "CSS", "JavaScript"],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/Lotus-Travelers",
+      webapp: "",
+    },
+    {
+      id: 8,
+      title: "Online movie ticket reservation project",
+      date: "February 2023 - March 2023",
+      description:
+        "Online Movie ticket reservation programme using Java which includes booking, canceling , sorting the tickets and printing the seating area.",
+      image:
+        "",
+      tags: ["Java"],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/Online-movie-ticket-reservation-project",
+      webapp: "",
+    },
+    {
+      id: 9,
+      title: "Academic Progression Predictor",
+      date: "October 2022 - November 2022",
+      description:
+        "A Python project focused on developing a program to predict progression outcomes for students at the end of each academic year, adhering to the regulations set by the University. The program takes input regarding the number of credits earned at pass, defer, and fail levels and accurately predicts the progression outcome for individual students.",
+      image:
+        "",
+      tags: ["Python"],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/Python-Academic-Progression-Predictor",
+      webapp: "",
+    },
+  ];
+  
+  export const TimeLineData = [
+    { year: 2022, text: "Started my journey" },
+    { year: 2024, text: "Worked as a Intern Software Engineer" },
+  ];
