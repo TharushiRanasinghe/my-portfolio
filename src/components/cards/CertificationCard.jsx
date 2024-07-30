@@ -90,7 +90,7 @@ const Body = styled.div`
 `
 
 
-const Name = styled.div`
+const C_Name = styled.div`
     font-size: 18px;
     font-weight: 600;
     color: ${({ theme }) => theme.text_primary + 99};
@@ -99,7 +99,7 @@ const Name = styled.div`
     }
 `
 
-const Degree = styled.div`
+const Offered_By = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -117,7 +117,7 @@ const Date = styled.div`
     }
 `
 
-const Grade = styled.div`
+const Credentials = styled.div`
     font-size: 14px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
@@ -126,27 +126,66 @@ const Grade = styled.div`
     }
 `
 
+const Skills = styled.div`
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+`
+
+const ItemWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+`
+
+const Skill = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`
 
 
-const Certification = ({ certifications }) => {
+
+
+const CertificationCard = ({ certification }) => {
     return (
         <Card>
             <Top>
-                <Image src={certifications.img} />
+                <Image src={certification.img} />
                 <Body>
-                    <Name>{certifications.name}</Name>
-                    <Offered_BY>{certifications.degree}</Offered_BY>
-                    <Date>{certifications.date}</Date>
+                    <C_Name>{certification.name}</C_Name>
+                    <Offered_By>Offered By: {certification.offered_by}</Offered_By>
+                    <Date>{certification.date}</Date>
                 </Body>
             </Top>
-            <Credentials><b>Credentials: </b>{certifications.Credentials}</Credentials>
-            <Image><b>Certificate: </b>{certifications.c_image}</Image>
-            <Skill><b>Skills: </b>{certifications.skill}</Skill>
+            <Credentials><b>Credentials: </b>{certification.credential}</Credentials>
             <Description>
-                <Span>{certifications.desc}</Span>
+                {certification?.skills &&
+                    <>
+                        <br />
+                        <Skills>
+                            <b>Skills:</b>
+                            <ItemWrapper>
+                                {certification?.skills?.map((skill, index) => (
+                                    <Skill>• {skill}</Skill>
+                                ))}
+                            </ItemWrapper>
+                        </Skills>
+                    </>
+                }
+                {certification?.desc &&
+                    <>
+                        <br/>
+                        <Span>{certification?.desc}</Span>
+                    </>
+                }    
             </Description>
         </Card>
     )
 }
 
-export default Certification
+export default CertificationCard
