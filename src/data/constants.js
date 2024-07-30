@@ -158,7 +158,6 @@ export const Bio = {
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     
-    
   ];
   
   export const education = [
@@ -353,23 +352,166 @@ export const Bio = {
     },
   ];
   
-  export const certifications = [
+  export const certification = [
     {
       id: 0,
-      img: "",
-      name: "",
-      date: "",
-      offered_by:"",
-      credentials: "",
-      c_image:"",
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "Figma Essential Training: The Basics",
+      offered_by: "LinkedIn",  
+      date: "July 2024",
+      credential: "https://www.linkedin.com/learning/certificates/15d0504c0849bd83a265066d3da36477636843d84b0ae7ea494b1fcf43bff1ea",
       skills: [
-        
+        "Figma",
       ],
       desc: "",
       
     },
     
-    
+    {
+      id: 1,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "Git Essential Training",
+      offered_by: "LinkedIn",  
+      date: "July 2024",
+      credential: "https://lnkd.in/gAp8eaN2",
+      skills: [
+        "Git",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 2,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "Learning Bitbucket",
+      offered_by: "LinkedIn",  
+      date: "July 2024",
+      credential: "https://www.linkedin.com/learning/certificates/c7bc7e4ac59753c18f488b0e04ff04d5f51cfc80b430786b7a1b181ab36fbded",
+      skills: [
+        "Bitbucket",
+        "Version Control",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 3,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "Learning SQL Programming",
+      offered_by: "LinkedIn",  
+      date: "July 2024",
+      credential: "https://lnkd.in/gdKGmVnC",
+      skills: [
+        "SQL",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 4,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 5,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 6,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 7,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 8,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 9,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 10,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "",
+      offered_by: "LinkedIn",  
+      date: "Oct 2023",
+      credential: "",
+      skills: [
+        "SpringBoot",
+        "Angular",
+        "MongoDB",
+      ],
+      desc: "",
+      
+    },
   ];
   
   export const TimeLineData = [
