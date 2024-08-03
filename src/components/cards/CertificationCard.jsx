@@ -112,7 +112,7 @@ const Date = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 80};
     @media only screen and (max-width: 768px) {
-        font-size: 12px;
+        font-size: 11px;
     }
 `;
 
@@ -131,6 +131,11 @@ const Skills = styled.div`
     gap: 10px;
     margin-top: -30px;
     font-size: 14px;
+    color: ${({ theme }) => theme.text_secondary + 99};
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+        margin-top: -25px;
+    }
 `;
 
 const ItemWrapper = styled.div`
@@ -141,8 +146,8 @@ const ItemWrapper = styled.div`
 
 const Skill = styled.div`
     font-size: 13px;
-    font-weight: 400;
-    color: ${({ theme }) => theme.text_primary + 99};
+    font-weight: 500;
+    color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px) {
         font-size: 12px;
     }
@@ -153,8 +158,8 @@ const Button = styled.a`
     padding: 6px 6px;
     margin-top: 5px;
     margin-left:3px;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 700;
     color: #626970;
     background-color: transparent;
     border: 1px solid #626970;  
@@ -166,6 +171,10 @@ const Button = styled.a`
         background-color: transparent;
         color: #fff;
         border: 1px solid #fff; 
+    }
+        @media only screen and (max-width: 768px) {
+        font-size: 11px;
+        padding: 5px 5px;
     }
 `;
 
