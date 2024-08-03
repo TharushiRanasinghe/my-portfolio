@@ -1,13 +1,7 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import CertificationCard from '../cards/CertificationCard';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import { certification, experiences } from '../../data/constants';
+import { certification } from '../../data/constants';
 
 const Container = styled.div`
     display: flex;
@@ -38,15 +32,15 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-font-size: 42px;
-text-align: center;
-font-weight: 600;
-margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
-      margin-top: 12px;
-      font-size: 32px;
-  }
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: ${({ theme }) => theme.text_primary};
+    @media (max-width: 768px) {
+        margin-top: 12px;
+        font-size: 32px;
+    }
 `;
 
 const Desc = styled.div`
@@ -63,42 +57,30 @@ const Desc = styled.div`
 const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;
+    @media (max-width: 960px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
     @media (max-width: 660px) {
-        align-items: end;
+        grid-template-columns: repeat(1, 1fr);
     }
 `;
 
 export default function index() {
   return (
     <Container id="certification">
-            <Wrapper>
-                <Title>Certifications</Title>
-                <Desc>
-                    I have completed several certifications.
-                </Desc>
-                <TimelineSection>
-                    <Timeline>
-                        {certification.map((certification,index) => (
-                            <TimelineItem >
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                <CertificationCard certification={certification}/>
-                                </TimelineContent>
-                                <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
-                                </TimelineSeparator>
-                            </TimelineItem>
-                        ))}
-                    </Timeline>
-
-                </TimelineSection>
-            </Wrapper>
+      <Wrapper>
+        <Title>Certifications</Title>
+        <Desc>I have completed several certifications.</Desc>
+        <TimelineSection>
+          {certification.map((certification, index) => (
+            <CertificationCard key={index} certification={certification} />
+          ))}
+        </TimelineSection>
+      </Wrapper>
     </Container>            
   )
 }
