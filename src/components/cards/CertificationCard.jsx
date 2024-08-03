@@ -90,7 +90,7 @@ const Body = styled.div`
 `;
 
 const C_Name = styled.div`
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px) {
@@ -99,7 +99,7 @@ const C_Name = styled.div`
 `;
 
 const Offered_By = styled.div`
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: ${({ theme }) => theme.text_secondary + 99};
     @media only screen and (max-width: 768px) {
@@ -155,7 +155,7 @@ const Skill = styled.div`
 
 const Button = styled.a`
     display: inline-block;
-    padding: 6px 6px;
+    padding: 6px 8px;
     margin-top: 5px;
     margin-left:3px;
     font-size: 13px;
@@ -163,7 +163,7 @@ const Button = styled.a`
     color: #626970;
     background-color: transparent;
     border: 1px solid #626970;  
-    border-radius: 10px;
+    border-radius: 20px;
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s, color 0.3s;

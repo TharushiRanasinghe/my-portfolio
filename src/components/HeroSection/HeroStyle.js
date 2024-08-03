@@ -115,6 +115,7 @@ export const Span = styled.span`
 
 export const SubTitle = styled.div`
   font-size: 20px;
+  text-align:justify;
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};

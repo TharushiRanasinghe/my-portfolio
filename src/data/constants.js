@@ -354,6 +354,20 @@ export const Bio = {
   
   export const certification = [
     {
+      id: 10,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      name: "CODESPRINT",
+      offered_by: "IEEE Student Branch of Informatics Institute of Technology",  
+      date: "July 2024",
+      credential: "",
+      skills: [
+        "Programming",
+        "TeamWork",
+      ],
+      desc: "",
+      
+    },
+    {
       id: 0,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       name: "Figma Essential Training: The Basics",
@@ -410,14 +424,12 @@ export const Bio = {
     {
       id: 4,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
-      offered_by: "LinkedIn",  
-      date: "Oct 2023",
-      credential: "",
+      name: "SQL(Basic)",
+      offered_by: "HackerRank",  
+      date: "July 2024",
+      credential: "https://www.hackerrank.com/certificates/07e6f2f18a32",
       skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
+        "SQL",
       ],
       desc: "",
       
@@ -425,14 +437,12 @@ export const Bio = {
     {
       id: 5,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
-      offered_by: "LinkedIn",  
-      date: "Oct 2023",
-      credential: "",
+      name: "Work with Components in Figma",
+      offered_by: "Coursera",  
+      date: "July 2024",
+      credential: "https://coursera.org/share/254ac2539e4d67ba6f06ad928b3ede6d",
       skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
+        "Figma",
       ],
       desc: "",
       
@@ -440,14 +450,12 @@ export const Bio = {
     {
       id: 6,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
+      name: "React.js Essential Training",
       offered_by: "LinkedIn",  
-      date: "Oct 2023",
-      credential: "",
+      date: "March 2024",
+      credential: "https://www.linkedin.com/learning/certificates/656b409c99151a6dc1b5cd4e3a80256430f9046f2e546c411ad70a7901622bc0?u=76664938",
       skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
+        "React.Js",
       ],
       desc: "",
       
@@ -455,14 +463,14 @@ export const Bio = {
     {
       id: 7,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
-      offered_by: "LinkedIn",  
-      date: "Oct 2023",
+      name: "Problem Solving International Hackathon'24",
+      offered_by: "University of Westminster",  
+      date: "February 2024",
       credential: "",
       skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
+        "Problem Solving",
+        "Mathematics",
+        "Programming",
       ],
       desc: "",
       
@@ -470,14 +478,12 @@ export const Bio = {
     {
       id: 8,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
-      offered_by: "LinkedIn",  
-      date: "Oct 2023",
+      name: " API Development and Postman Hands-on Learning Session",
+      offered_by: "Fidenz Academy",  
+      date: "November 2023",
       credential: "",
       skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
+        "API Development",
       ],
       desc: "",
       
@@ -485,29 +491,14 @@ export const Bio = {
     {
       id: 9,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
-      offered_by: "LinkedIn",  
+      name: "Introduction to Front-End Development",
+      offered_by: "Coursera",  
       date: "Oct 2023",
-      credential: "",
+      credential: "https://coursera.org/verify/GL6BA8V55DHM",
       skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 10,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      name: "",
-      offered_by: "LinkedIn",  
-      date: "Oct 2023",
-      credential: "",
-      skills: [
-        "SpringBoot",
-        "Angular",
-        "MongoDB",
+        "Bootstrap Framework",
+        "HTML",
+        "CSS",
       ],
       desc: "",
       

@@ -60,7 +60,7 @@ const TimelineSection = styled.div`
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 25px;
     @media (max-width: 960px) {
         grid-template-columns: repeat(2, 1fr);
     }
