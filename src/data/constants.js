@@ -7,6 +7,22 @@ import hackerRankImage from '../images/HackerRank.png';
 import courseraImage from '../images/coursera.png';
 import fidenzAcademyImage from '../images/fidenze.png';
 import IEEElogo from '../images/IEEELogo.jpeg';
+import RxSolveImage from '../images/ProjectImages/RX-Solve.png';
+import portfolioImage from '../images/ProjectImages/portfolioImage.png';
+import universityProjectImage from '../images/ProjectImages/universityProjectImage.png';
+import lotusTravellersImage from '../images/ProjectImages/lotusTravellers.png';
+import MLImage from '../images/ProjectImages/MLImage.png';
+import ATMProjectImage from '../images/ProjectImages/ATMProject.png';
+import onlineMovieTicketProject from '../images/ProjectImages/movieTicketProjectImage.jpg';
+import AcademicProgressPredictorImage from '../images/ProjectImages/AcademicPredictorImage.jpeg';
+import puzzleProjectImage from '../images/ProjectImages/puzzleProject.png';
+import onlineShoppingSystemProjectImage from '../images/ProjectImages/shoppingSystemProject.jpeg';
+import healthcareApiProjectImage from '../images/ProjectImages/healthCareProjectImage.jpeg';
+import tharushiRanasinghe from '../images/myPicture.jpg';
+import harinduSamarasinghe from '../images/ProjectImages/harinduSamarasinghe.jpeg';
+import sujini from '../images/ProjectImages/sujini.jpeg';
+import ravindu from '../images/ProjectImages/ravinduSankalpa.jpeg';
+import achini from '../images/ProjectImages/achini.jpeg';
 
 export const Bio = {
     name: "Tharushi Ranasinghe",
@@ -208,7 +224,7 @@ export const Bio = {
       description:
         "Dynamic portfolio showcasing diverse skills and accomplishments.",
       image:
-        "",
+        portfolioImage,
       tags: [
         "React",
       ],
@@ -223,7 +239,7 @@ export const Bio = {
       description:
         "Analyzing a dataset of 2700 varieties of white wine from Portugal to relate their chemical properties to quality rankings using clustering techniques. Tasks include data preprocessing, determining the optimal number of clusters, performing k-means clustering, and applying PCA for dimensionality reduction. The second part focuses on forecasting the USD/EUR exchange rate using a multilayer neural network with an autoregressive approach. Implement all tasks in R Studio.",
       image:
-        "",
+        MLImage,
       tags: [
         "R",
         "Data Mining",
@@ -240,7 +256,7 @@ export const Bio = {
       description:
         "A Health System API adhering to RESTful principles and leveraging the JAX-RS framework in Java, emphasizing comprehensive healthcare management functionalities.",
       image:
-        "",
+        healthcareApiProjectImage,
       tags: [
         "Java",
         "Jax-RS",
@@ -259,7 +275,7 @@ export const Bio = {
       description:
         "An optimal path-finding algorithm in Java for solving frictionless sliding puzzles, showcasing expertise in data structures, algorithm design, and performance analysis. Utilized custom data structures and Dijkstra's algorithm to achieve efficient solutions.",
       image:
-        "",
+        puzzleProjectImage,
       tags: [
         "Java",
         "Data Structures",
@@ -277,23 +293,27 @@ export const Bio = {
       description:
         "Implemented a mobile application using Expo react-native. This project focuses on improving how patients acquire medications by utilizing technology. Through our application, users can easily upload prescriptions and search for medications. Registered pharmacies keep medication availability updated in real-time through the app, providing users with instant information.",
       image:
-        "",
+        RxSolveImage,
       tags: ["React Native", "Firebase", "User Interface Design", "Figma",],
       category: "android app",
-      github: "",
+      github: "https://github.com/harindusamarasinghe/Rx-Solve-React-Native-APP",
       webapp: "",
       member: [
         {
           name: "Tharushi Ranasinghe",
-          img: "",
-          linkedin: "",
-          github: "",
+          img: tharushiRanasinghe,
         },
         {
           name: "Harindu Samarasinghe",
-          img: "",
-          linkedin: "",
-          github: "",
+          img: harinduSamarasinghe,
+        },
+        {
+          name: "Sujini Weragodage",
+          img: sujini,
+        },
+        {
+          name: "Ravindu Sankalpa",
+          img: ravindu,
         },
       ],
     },
@@ -304,7 +324,7 @@ export const Bio = {
       description:
         "This is an object-oriented programming (OOP) project implemented in Java. The project manages an online shopping system across three phases: design and class creation using UML diagrams, console menu integration for manager actions, and a Graphical User Interface (GUI) for user interaction.",
       image:
-        "",
+        onlineShoppingSystemProjectImage,
       tags: ["Java", "Object-Oriented Programming(OOP)", "Java Swing", "Graphical User Interface(GUI)"],
       category: "web app",
       github: "https://github.com/TharushiRanasinghe/Online-shopping-system-management",
@@ -317,7 +337,7 @@ export const Bio = {
       description:
         "A Java-based ATM Simulator System developed using NetBeans IDE and MySQL database. The system faithfully replicates standard ATM functionalities, including account creation, deposits, withdrawals, mini statements, and PIN changes.",
       image:
-        "",
+        ATMProjectImage,
       tags: ["Java", "MySQL", "Java Swing","Graphical User Interface(GUI)"],
       category: "web app",
       github: "https://github.com/TharushiRanasinghe/ATM-Simulator-System",
@@ -330,7 +350,7 @@ export const Bio = {
       description:
         "Developed a responsive university website using HTML, CSS, and PHP, ensuring user-friendly navigation and enhanced design across various devices. Limited server-side functionalities, including a contact form for inquiries.",
       image:
-        "",
+        universityProjectImage,
       tags: ["HTML5", "CSS", "PHP"],
       category: "web app",
       github: "https://github.com/TharushiRanasinghe/Responsive-Multi-Page-Website",
@@ -343,11 +363,21 @@ export const Bio = {
       description:
         " A complete traveling website using HTML, CSS, and JS. I was assigned to complete the website's main page, comment form, history of the Kandy page, and external style sheet.",
       image:
-        "",
+        lotusTravellersImage,
       tags: ["HTML5", "CSS", "JavaScript"],
       category: "web app",
       github: "https://github.com/TharushiRanasinghe/Lotus-Travelers",
       webapp: "",
+      member: [
+        {
+          name: "Tharushi Ranasinghe",
+          img: tharushiRanasinghe,
+        },
+        {
+          name: "Achini Pathirana",
+          img: achini,
+        },
+      ],
     },
     {
       id: 8,
@@ -356,7 +386,7 @@ export const Bio = {
       description:
         "Online Movie ticket reservation programme using Java which includes booking, canceling , sorting the tickets and printing the seating area.",
       image:
-        "",
+        onlineMovieTicketProject,
       tags: ["Java"],
       category: "web app",
       github: "https://github.com/TharushiRanasinghe/Online-movie-ticket-reservation-project",
@@ -369,7 +399,7 @@ export const Bio = {
       description:
         "A Python project focused on developing a program to predict progression outcomes for students at the end of each academic year, adhering to the regulations set by the University. The program takes input regarding the number of credits earned at pass, defer, and fail levels and accurately predicts the progression outcome for individual students.",
       image:
-        "",
+        AcademicProgressPredictorImage,
       tags: ["Python"],
       category: "web app",
       github: "https://github.com/TharushiRanasinghe/Python-Academic-Progression-Predictor",

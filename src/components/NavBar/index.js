@@ -4,7 +4,6 @@ import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import { FaBars } from 'react-icons/fa';
-import { DiCssdeck } from 'react-icons/di';
 
 const Navbar =() =>{
     const [isOpen, setIsOpen] = React.useState(false);
@@ -15,7 +14,13 @@ const Navbar =() =>{
             <NavbarContainer>
             <NavLogo to='/'>
                 <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-                    <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+                <Span style={{ fontWeight: 400 }}>
+                    <span style={{ color: theme.primary, fontWeight: 500,fontSize: '1.5em', verticalAlign: 'middle' }}>&lt;</span>
+                    Tharushi
+                    <span style={{ color: theme.primary, fontWeight: 700 }}>&nbsp;/&nbsp;</span>
+                    Ranasinghe
+                    <span style={{ color: theme.primary, fontWeight: 500,fontSize: '1.5em', verticalAlign: 'middle'}}>&gt;</span>
+                </Span>
                 </a>
             </NavLogo>
             <MobileIcon>
