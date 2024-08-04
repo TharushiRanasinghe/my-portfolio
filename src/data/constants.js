@@ -1,3 +1,13 @@
+import otrImage from '../images/OTR.png';
+import uowImage from '../images/UOW.png';
+import uocImage from '../images/UOC.png';
+import rbvImage from '../images/RBV.jpeg';
+import linkedInImage from '../images/linkedIn.png';
+import hackerRankImage from '../images/HackerRank.png';
+import courseraImage from '../images/coursera.png';
+import fidenzAcademyImage from '../images/fidenze.png';
+import IEEElogo from '../images/IEEELogo.jpeg';
+
 export const Bio = {
     name: "Tharushi Ranasinghe",
     roles: [
@@ -145,17 +155,17 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.otrwheel.com%2Flocations%2F&psig=AOvVaw3xwlhHBgNEsFBe0TtgZs1J&ust=1722236977117000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiprJKXyYcDFQAAAAAdAAAAABAI",
+      img: otrImage,
       role: "Software Engineer Intern",
       company: "OTR Lanka",
       date: "June 2024 - Present",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      desc: "As an intern software engineer, I am currently involved in various projects, gaining hands-on experience and enhancing my skills in software development.",
       skills: [
         "SpringBoot",
         "Angular",
         "MongoDB",
       ],
-      doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+      doc: "",
     },
     
   ];
@@ -163,7 +173,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: uowImage,
       school: "University of Westminster",
       date: "Oct 2022 - Sep 2026",
       grade: "2nd Year",
@@ -172,7 +182,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: uocImage,
       school: "Universty of Colombo",
       date: "Apr 2022 - Nov 2023",
       grade: "Distinction - Higher Level",
@@ -181,7 +191,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: rbvImage,
       school: "Rathnavali Balika Vidyalaya - Gampaha",
       date: "Jan 2012 - Feb 2022",
       grade: "1B and 2Cs' in Mathematics Stream",
@@ -191,6 +201,21 @@ export const Bio = {
   ];
   
   export const projects = [
+    {
+      id: 10,
+      title: "Portfolio",
+      date: "May 2024 - June 2024",
+      description:
+        "Dynamic portfolio showcasing diverse skills and accomplishments.",
+      image:
+        "",
+      tags: [
+        "React",
+      ],
+      category: "web app",
+      github: "https://github.com/TharushiRanasinghe/my-portfolio",
+      webapp: "",
+    },
     {
       id: 0,
       title: "Machine Learning-Driven Data Analysis & Forecasting",
@@ -355,7 +380,7 @@ export const Bio = {
   export const certification = [
     {
       id: 10,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: IEEElogo,
       name: "CODESPRINT",
       offered_by: "IEEE Student Branch of Informatics Institute of Technology",  
       date: "July 2024",
@@ -369,7 +394,7 @@ export const Bio = {
     },
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: linkedInImage,
       name: "Figma Essential Training: The Basics",
       offered_by: "LinkedIn",  
       date: "July 2024",
@@ -383,7 +408,7 @@ export const Bio = {
     
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: linkedInImage,
       name: "Git Essential Training",
       offered_by: "LinkedIn",  
       date: "July 2024",
@@ -396,7 +421,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: linkedInImage,
       name: "Learning Bitbucket",
       offered_by: "LinkedIn",  
       date: "July 2024",
@@ -410,7 +435,7 @@ export const Bio = {
     },
     {
       id: 3,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: linkedInImage,
       name: "Learning SQL Programming",
       offered_by: "LinkedIn",  
       date: "July 2024",
@@ -423,7 +448,7 @@ export const Bio = {
     },
     {
       id: 4,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: hackerRankImage,
       name: "SQL(Basic)",
       offered_by: "HackerRank",  
       date: "July 2024",
@@ -436,7 +461,7 @@ export const Bio = {
     },
     {
       id: 5,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: courseraImage,
       name: "Work with Components in Figma",
       offered_by: "Coursera",  
       date: "July 2024",
@@ -449,7 +474,7 @@ export const Bio = {
     },
     {
       id: 6,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: linkedInImage,
       name: "React.js Essential Training",
       offered_by: "LinkedIn",  
       date: "March 2024",
@@ -462,7 +487,7 @@ export const Bio = {
     },
     {
       id: 7,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: uowImage,
       name: "Problem Solving International Hackathon'24",
       offered_by: "University of Westminster",  
       date: "February 2024",
@@ -477,7 +502,7 @@ export const Bio = {
     },
     {
       id: 8,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: fidenzAcademyImage,
       name: " API Development and Postman Hands-on Learning Session",
       offered_by: "Fidenz Academy",  
       date: "November 2023",
@@ -490,7 +515,7 @@ export const Bio = {
     },
     {
       id: 9,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: courseraImage,
       name: "Introduction to Front-End Development",
       offered_by: "Coursera",  
       date: "Oct 2023",

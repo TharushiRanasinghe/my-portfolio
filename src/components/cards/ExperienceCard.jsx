@@ -76,12 +76,15 @@ const Top = styled.div`
 `
 
 const Image = styled.img`
-    height: 50px;
+    height: 40px;
+    width:70px;
     background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
-        height: 40px;
+        height: 30px;
+        width:60px;
+        border-radius:5px;
     }
 `
 
@@ -141,8 +144,6 @@ const Skill = styled.div`
         font-size: 12px;
     }
 `
-
-
 
 const ExperienceCard = ({ experience }) => {
     return (
