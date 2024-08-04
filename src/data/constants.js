@@ -15,10 +15,10 @@ export const Bio = {
       "Intern Software Engineer",
     ],
     description:
-      "Passionate and dedicated 2nd year computer science undergraduate with a solid background in machine learning and algorithms, interested in software engineering.I am excited about the opportunity to learn and contribute as an intern and collaborate with a dynamic team to tackle challenges and gain valuable experience.",
+      "Passionate and dedicated 3nd year computer science undergraduate with a solid background in machine learning and algorithms, interested in software engineering. I am excited about the opportunity to learn and contribute as an intern and collaborate with a dynamic team to tackle challenges and gain valuable experience.",
     github: "https://github.com/TharushiRanasinghe",
     resume:
-      "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+      "https://drive.google.com/file/d/19VnJOPYO39WtTE8k8JxZYvCyzIr_zl_x/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/tharushi-ranasinghe-b11a22257/",
   };
   
@@ -176,8 +176,8 @@ export const Bio = {
       img: uowImage,
       school: "University of Westminster",
       date: "Oct 2022 - Sep 2026",
-      grade: "2nd Year",
-      desc: "I am a second-year undergraduate student at University of Westminster affiliated with Informatics Institute of Technology -Sri Lanka, focusing on software engineering with hands-on experience in Python, Java, Object-Oriented Programming, R, data structures and algorithms, web development technologies(HTML, CSS, JavaScript, React.js), and database management (MySQL, Firebase). I am committed to enhancing my problem-solving skills and creativity through practical projects and teamwork.",
+      grade: "3nd Year",
+      desc: "I am a third-year undergraduate student at University of Westminster affiliated with Informatics Institute of Technology -Sri Lanka, focusing on software engineering with hands-on experience in Python, Java, Object-Oriented Programming, R, data structures and algorithms, web development technologies(HTML, CSS, JavaScript, React.js), and database management (MySQL, Firebase). I am committed to enhancing my problem-solving skills and creativity through practical projects and teamwork.",
       degree: "BSc(Hons) Computer Science",
     },
     {
@@ -194,7 +194,7 @@ export const Bio = {
       img: rbvImage,
       school: "Rathnavali Balika Vidyalaya - Gampaha",
       date: "Jan 2012 - Feb 2022",
-      grade: "1B and 2Cs' in Mathematics Stream",
+      grade: "1B and 2Cs' in Mathematics Stream.",
       desc: "",
       degree: "Advanced Level Examination",
     },
@@ -204,7 +204,7 @@ export const Bio = {
     {
       id: 10,
       title: "Portfolio",
-      date: "May 2024 - June 2024",
+      date: "June 2024 - July 2024",
       description:
         "Dynamic portfolio showcasing diverse skills and accomplishments.",
       image:
@@ -384,7 +384,7 @@ export const Bio = {
       name: "CODESPRINT",
       offered_by: "IEEE Student Branch of Informatics Institute of Technology",  
       date: "July 2024",
-      credential: "",
+      credential: "https://drive.google.com/file/d/1Eh2cyd7WJbI_6FB0vc-Y3Z0pbIkBFWpl/view?usp=sharing",
       skills: [
         "Programming",
         "TeamWork",
@@ -491,7 +491,7 @@ export const Bio = {
       name: "Problem Solving International Hackathon'24",
       offered_by: "University of Westminster",  
       date: "February 2024",
-      credential: "",
+      credential: "https://drive.google.com/file/d/1YmHjyzS_VO9lNsqtl58JRffFyjJLHyVA/view?usp=sharing",
       skills: [
         "Problem Solving",
         "Mathematics",
@@ -506,7 +506,7 @@ export const Bio = {
       name: " API Development and Postman Hands-on Learning Session",
       offered_by: "Fidenz Academy",  
       date: "November 2023",
-      credential: "",
+      credential: "https://drive.google.com/file/d/1W0OMk7O_8-QPi2lmHpPcu3-j0pbmTRZa/view?usp=sharing",
       skills: [
         "API Development",
       ],
