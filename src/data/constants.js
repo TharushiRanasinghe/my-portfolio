@@ -23,6 +23,7 @@ import harinduSamarasinghe from '../images/ProjectImages/harinduSamarasinghe.jpe
 import sujini from '../images/ProjectImages/sujini.jpeg';
 import ravindu from '../images/ProjectImages/ravinduSankalpa.jpeg';
 import achini from '../images/ProjectImages/achini.jpeg';
+import ICBT from '../images/ICBT.jpeg';
 
 export const Bio = {
     name: "Tharushi Ranasinghe",
@@ -207,6 +208,15 @@ export const Bio = {
     },
     {
       id: 2,
+      img: ICBT,
+      school: "ICBT Campus",
+      date: "September 2022 - April 2023",
+      grade: "Distinction",
+      desc: "During my Diploma of Education in Information and Communication Technology at ICBT Campus, I gained a comprehensive understanding of programming, graphic design, web development, computer systems, and computational mathematics.",
+      degree: "Diploma of Education, Information and Communication Technology",
+    },
+    {
+      id: 3,
       img: rbvImage,
       school: "Rathnavali Balika Vidyalaya - Gampaha",
       date: "Jan 2012 - Feb 2022",

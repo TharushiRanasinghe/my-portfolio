@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -7,16 +9,14 @@ const FooterContainer = styled.div`
   padding: 2rem 0;
   display: flex;
   justify-content: center;
-  //background: linear-gradient(100.26deg, rgba(0, 102, 255, 0.05) 42.33%, rgba(150, 0, 225, 0.05) 127.07%);
 `;
-
 
 const FooterWrapper = styled.footer`
   width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 22px;
   align-items: center;
   padding: 1rem;
   color: ${({ theme }) => theme.text_primary};
@@ -46,7 +46,7 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
@@ -58,20 +58,56 @@ color: ${({ theme }) => theme.text_primary};
   }
 `;
 
-const SocialMediaIcons = styled.div`
+const ContactInfo = styled.div`
   display: flex;
+  align-items: center;
   margin-top: 1rem;
+  gap: 1.9rem;
+  justify-content: center;
 `;
 
-const SocialMediaIcon = styled.a`
-  display: inline-block;
-  margin: 0 1rem;
+const IconWrapper = styled.div`
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
+  display: flex;
+  align-items: center;
   transition: color 0.2s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
+`;
+
+const SocialMediaIcon = styled.a`
+  margin: 0 1rem;
+  color: ${({ theme }) => theme.text_primary};
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
+const Email = styled.a`
+  color: ${({ theme }) => theme.text_primary};
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  font-size: 1.0rem;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
+
+const PhoneNumber = styled.p`
+  margin: 0;
+  font-size: 1.0rem;
+  color: ${({ theme }) => theme.text_primary};
+`;
+
+const ContactItem = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 `;
 
 const Copyright = styled.p`
@@ -94,13 +130,26 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#certification">Certifications</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-        </SocialMediaIcons>
+        <ContactInfo>
+          <SocialMediaIcon href={Bio.linkedin} target="_blank">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <ContactItem>
+            <IconWrapper>
+              <EmailIcon />
+            </IconWrapper>
+            <Email href="mailto:tharushinethma2002@gmail.com">tharushinethma2002@gmail.com</Email>
+          </ContactItem>
+          <ContactItem>
+            <IconWrapper>
+              <PhoneIcon />
+            </IconWrapper>
+            <PhoneNumber>(+94) 742737597</PhoneNumber>
+          </ContactItem>
+        </ContactInfo>
         <Copyright>
           &copy; 2024 Tharushi Ranasinghe. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );
