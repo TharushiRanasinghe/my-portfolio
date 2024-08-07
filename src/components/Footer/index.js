@@ -129,6 +129,7 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
           <NavLink href="#certification">Certifications</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <ContactInfo>
           <SocialMediaIcon href={Bio.linkedin} target="_blank">
