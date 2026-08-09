@@ -24,18 +24,18 @@ import sujini from '../images/ProjectImages/sujini.jpeg';
 import ravindu from '../images/ProjectImages/ravinduSankalpa.jpeg';
 import achini from '../images/ProjectImages/achini.jpeg';
 import ICBT from '../images/ICBT.jpeg';
+import Udemy from '../images/Udemy.png';
 
 export const Bio = {
     name: "Tharushi Ranasinghe",
     roles: [
-      "CS Undergraduate",
-      "Intern Software Engineer",
+      "Associate Software Engineer",
     ],
     description:
-      "Passionate and dedicated 3nd year computer science undergraduate with a solid background in machine learning and algorithms, interested in software engineering. I am excited about the opportunity to learn and contribute as an intern and collaborate with a dynamic team to tackle challenges and gain valuable experience.",
+      "Final-year Computer Science undergraduate and Associate Software Engineer passionate about building scalable full-stack applications using modern technologies. Experienced in backend development, frontend engineering, and AI-powered solutions.",
     github: "https://github.com/TharushiRanasinghe",
     resume:
-      "https://drive.google.com/file/d/19VnJOPYO39WtTE8k8JxZYvCyzIr_zl_x/view?usp=sharing",
+      "https://drive.google.com/file/d/1jtkttQtsRoEZ0_HNL2lDZQywL5zw74Ar/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/tharushi-ranasinghe-b11a22257/",
   };
   
@@ -49,47 +49,19 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
         {
-          name: "Python",
-          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+          name: "R",
+          image:
+            "https://www.r-project.org/logo/Rlogo.png",
         },
         {
-          name: "JavaScript",
+          name: "React Native",
           image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
+            "https://reactnative.dev/img/header_logo.svg",
+        }
       ],
     },
     {
-      title: "Frontend Development",
-      skills: [
-        {
-          name: "React Js",
-          image:
-            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "Angular",
-          image:
-            "https://angular.io/assets/images/logos/angular/angular.svg",
-        },
-        {
-          name: "HTML",
-          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-        },
-        {
-          name: "CSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-      ],
-    },
-    {
-      title: "Backend Development",
+      title: "Backend Framework",
       skills: [
         {
           name: "SpringBoot",
@@ -99,30 +71,20 @@ export const Bio = {
       ]  
     },
     {
-      title: "Mobile App Development",
+      title: "Frontend Development",
       skills: [
         {
-          name: "React Native",
+          name: "Angular",
           image:
-            "https://reactnative.dev/img/header_logo.svg",
-        },
-        {
-          name: "Android Studio",
-          image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-        },
+            "https://angular.io/assets/images/logos/angular/angular.svg",
+        }
       ],
     },
     {
       title: "Database",
       skills: [
         {
-          name: "SQL Server",
-          image:
-            "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg",
-        },
-        {
-          name: "MySQL",
+          name: "SQL",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
@@ -141,24 +103,14 @@ export const Bio = {
       title: "Others",
       skills: [
         {
-          name: "Git",
-          image:
-            "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-        },
-        {
-          name: "GitHub",
-          image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-        },
-        {
-          name: "Bitbucket",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/c/c5/Bitbucket-Logo-blue.svg",
-        },
-        {
           name: "Postman",
           image:
             "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+        },
+        {
+          name: "Docker",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/8/89/Docker_Logo.svg",
         },
         {
           name: "Figma",
@@ -168,23 +120,59 @@ export const Bio = {
       ],
     },
   ];
-  
+
   export const experiences = [
     {
       id: 0,
       img: otrImage,
-      role: "Software Engineer Intern",
-      company: "OTR Lanka",
-      date: "June 2024 - Present",
-      desc: "As an intern software engineer, I am currently involved in various projects, gaining hands-on experience and enhancing my skills in software development.",
+      role: "Associate Software Engineer",
+      company: "OTR Engineered Solutions Lanka",
+      date: "June 2025 - Present",
+
+      desc: [
+        "Developing and maintaining a production-level Human Resource Information System (HRIS) using Angular, Spring Boot, MongoDB, and SQL.",
+        "Designed and developed a reusable OCR processing library using Spring Boot and Google Document AI for automated document extraction.",
+        "Led requirement analysis and contributed to the design and implementation of the Skill Matrix Module.",
+        "Handled production issue resolution, system monitoring, and continuous improvements to enhance reliability.",
+        "Mentored interns and supported sprint planning, task coordination, and technical knowledge sharing."
+      ],
+
       skills: [
-        "SpringBoot",
+        "Java",
+        "Spring Boot",
         "Angular",
         "MongoDB",
+        "SQL",
+        "Google Document AI",
+        "Git"
       ],
       doc: "",
     },
-    
+    {
+      id: 1,
+      img: otrImage,
+      role: "Software Engineer Intern",
+      company: "OTR Engineered Solutions Lanka",
+      date: "June 2024 - June 2025",
+
+      desc: [
+        "Contributed to the development and maintenance of an enterprise-level HRIS application.",
+        "Independently developed and optimized the Performance Evaluation Module.",
+        "Designed and implemented the Loan Management Module from requirement analysis to deployment.",
+        "Collaborated on Letter Management and Piece Rate modules through feature development and bug fixing.",
+        "Improved application performance, usability, and maintainability through continuous enhancements."
+      ],
+
+      skills: [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "MongoDB",
+        "SQL",
+        "REST APIs"
+      ],
+      doc: "",
+    },
   ];
   
   export const education = [
@@ -192,9 +180,9 @@ export const Bio = {
       id: 0,
       img: uowImage,
       school: "University of Westminster",
-      date: "Oct 2022 - Sep 2026",
-      grade: "3nd Year",
-      desc: "I am a third-year undergraduate student at University of Westminster affiliated with Informatics Institute of Technology -Sri Lanka, focusing on software engineering with hands-on experience in Python, Java, Object-Oriented Programming, R, data structures and algorithms, web development technologies(HTML, CSS, JavaScript, React.js), and database management (MySQL, Firebase). I am committed to enhancing my problem-solving skills and creativity through practical projects and teamwork.",
+      date: "Oct 2022 - Sep 2027",
+      grade: "Final Year",
+      desc: "Final-year Computer Science undergraduate at the University of Westminster (UK), studying at IIT Sri Lanka. Built a strong foundation in software engineering, artificial intelligence, and full-stack development.",
       degree: "BSc(Hons) Computer Science",
     },
     {
@@ -203,20 +191,11 @@ export const Bio = {
       school: "Universty of Colombo",
       date: "Apr 2022 - Nov 2023",
       grade: "Distinction - Higher Level",
-      desc: "Completed a comprehensive English language program, enhancing my communication skills in both written and spoken English. This course has significantly improved my ability to articulate ideas clearly, engage in effective professional communication, and contribute to collaborative environments.",
+      desc: "Successfully completed an advanced English language program with a Distinction, strengthening professional communication, academic writing, presentation, and interpersonal collaboration skills.",
       degree: "Certificate Course In English Language - No.43",
     },
     {
       id: 2,
-      img: ICBT,
-      school: "ICBT Campus",
-      date: "September 2022 - April 2023",
-      grade: "Distinction",
-      desc: "During my Diploma of Education in Information and Communication Technology at ICBT Campus, I gained a comprehensive understanding of programming, graphic design, web development, computer systems, and computational mathematics.",
-      degree: "Diploma of Education, Information and Communication Technology",
-    },
-    {
-      id: 3,
       img: rbvImage,
       school: "Rathnavali Balika Vidyalaya - Gampaha",
       date: "Jan 2012 - Feb 2022",
@@ -228,18 +207,19 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 10,
-      title: "Portfolio",
-      date: "June 2024 - July 2024",
+      id: 0,
+      title: "OCR Library for Document Processing",
+      date: "June 2025 - July 2025",
       description:
-        "Dynamic portfolio showcasing diverse skills and accomplishments.",
+        "Developed a reusable OCR library to automate data extraction from various document types. Designed and implemented the solution end-to-end using Google Document AI, with a focus on accuracy, scalability, and seamless integration with external services.",
       image:
-        portfolioImage,
+        MLImage,
       tags: [
-        "React",
+        "Java Spring Boot",
+        "Google Document AI",
       ],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/my-portfolio",
+      category: "Backend",
+      github: "",
       webapp: "",
     },
     {
@@ -257,25 +237,6 @@ export const Bio = {
       ],
       category: "machine learning",
       github: "https://github.com/TharushiRanasinghe/Machine-Learning-Driven-Data-Analysis-Forecasting",
-      webapp: "",
-    },
-    {
-      id: 1,
-      title: "HealthCare API - RESTful Implementation",
-      date: "March 2024 - May 2024",
-      description:
-        "A Health System API adhering to RESTful principles and leveraging the JAX-RS framework in Java, emphasizing comprehensive healthcare management functionalities.",
-      image:
-        healthcareApiProjectImage,
-      tags: [
-        "Java",
-        "Jax-RS",
-        "Postman API",
-        "Tomcat",
-        "Application Programming Interfaces(API)",
-      ],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/HealthCare-API-RESTful-Implementation",
       webapp: "",
     },
     {
@@ -327,99 +288,50 @@ export const Bio = {
         },
       ],
     },
-    {
-      id: 4,
-      title: "Online shopping system management",
-      date: "November 2023 - January 2024",
-      description:
-        "This is an object-oriented programming (OOP) project implemented in Java. The project manages an online shopping system across three phases: design and class creation using UML diagrams, console menu integration for manager actions, and a Graphical User Interface (GUI) for user interaction.",
-      image:
-        onlineShoppingSystemProjectImage,
-      tags: ["Java", "Object-Oriented Programming(OOP)", "Java Swing", "Graphical User Interface(GUI)"],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/Online-shopping-system-management",
-      webapp: "",
-    },
-    {
-      id: 5,
-      title: "ATM Simulator System",
-      date: "October 2023 - December 2023",
-      description:
-        "A Java-based ATM Simulator System developed using NetBeans IDE and MySQL database. The system faithfully replicates standard ATM functionalities, including account creation, deposits, withdrawals, mini statements, and PIN changes.",
-      image:
-        ATMProjectImage,
-      tags: ["Java", "MySQL", "Java Swing","Graphical User Interface(GUI)"],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/ATM-Simulator-System",
-      webapp: "",
-    },
-    {
-      id: 6,
-      title: "Responsive Multi Page Website",
-      date: "June 2023 - July 2023",
-      description:
-        "Developed a responsive university website using HTML, CSS, and PHP, ensuring user-friendly navigation and enhanced design across various devices. Limited server-side functionalities, including a contact form for inquiries.",
-      image:
-        universityProjectImage,
-      tags: ["HTML5", "CSS", "PHP"],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/Responsive-Multi-Page-Website",
-      webapp: "",
-    },
-    {
-      id: 7,
-      title: "Lotus Travelers",
-      date: "February 2023 - March 2023",
-      description:
-        " A complete traveling website using HTML, CSS, and JS. I was assigned to complete the website's main page, comment form, history of the Kandy page, and external style sheet.",
-      image:
-        lotusTravellersImage,
-      tags: ["HTML5", "CSS", "JavaScript"],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/Lotus-Travelers",
-      webapp: "",
-      member: [
-        {
-          name: "Tharushi Ranasinghe",
-          img: tharushiRanasinghe,
-        },
-        {
-          name: "Achini Pathirana",
-          img: achini,
-        },
-      ],
-    },
-    {
-      id: 8,
-      title: "Online movie ticket reservation project",
-      date: "February 2023 - March 2023",
-      description:
-        "Online Movie ticket reservation programme using Java which includes booking, canceling , sorting the tickets and printing the seating area.",
-      image:
-        onlineMovieTicketProject,
-      tags: ["Java"],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/Online-movie-ticket-reservation-project",
-      webapp: "",
-    },
-    {
-      id: 9,
-      title: "Academic Progression Predictor",
-      date: "October 2022 - November 2022",
-      description:
-        "A Python project focused on developing a program to predict progression outcomes for students at the end of each academic year, adhering to the regulations set by the University. The program takes input regarding the number of credits earned at pass, defer, and fail levels and accurately predicts the progression outcome for individual students.",
-      image:
-        AcademicProgressPredictorImage,
-      tags: ["Python"],
-      category: "web app",
-      github: "https://github.com/TharushiRanasinghe/Python-Academic-Progression-Predictor",
-      webapp: "",
-    },
   ];
   
   export const certification = [
     {
-      id: 10,
+      id: 1,
+      img: Udemy,
+      name: "Product Owner Fundamentals - IIBA Endorsed",
+      offered_by: "Udemy",  
+      date: "November 2025",
+      credential: "https://www.udemy.com/certificate/UC-ea94e01d-d758-4189-a3fa-87a8c131b704/",
+      skills: [
+        "JUnit"
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 5,
+      img: Udemy,
+      name: "Fundamentals of Software Design and Architecture Course",
+      offered_by: "Udemy",  
+      date: "September 2025",
+      credential: "https://www.udemy.com/certificate/UC-edee1d05-1ec1-4e37-a28d-c4593ac7ab65/",
+      skills: [
+        "JUnit"
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 4,
+      img: IEEElogo,
+      name: "Practical Java Unit Testing with JUnit 5",
+      offered_by: "Udemy",  
+      date: "February 2025",
+      credential: "https://www.udemy.com/certificate/UC-0d91479c-f150-425d-86ad-49d5ded0e1c9/",
+      skills: [
+        "JUnit"
+      ],
+      desc: "",
+      
+    },
+    {
+      id: 2,
       img: IEEElogo,
       name: "CODESPRINT",
       offered_by: "IEEE Student Branch of Informatics Institute of Technology",  
@@ -433,100 +345,7 @@ export const Bio = {
       
     },
     {
-      id: 0,
-      img: linkedInImage,
-      name: "Figma Essential Training: The Basics",
-      offered_by: "LinkedIn",  
-      date: "July 2024",
-      credential: "https://www.linkedin.com/learning/certificates/15d0504c0849bd83a265066d3da36477636843d84b0ae7ea494b1fcf43bff1ea",
-      skills: [
-        "Figma",
-      ],
-      desc: "",
-      
-    },
-    
-    {
       id: 1,
-      img: linkedInImage,
-      name: "Git Essential Training",
-      offered_by: "LinkedIn",  
-      date: "July 2024",
-      credential: "https://lnkd.in/gAp8eaN2",
-      skills: [
-        "Git",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 2,
-      img: linkedInImage,
-      name: "Learning Bitbucket",
-      offered_by: "LinkedIn",  
-      date: "July 2024",
-      credential: "https://www.linkedin.com/learning/certificates/c7bc7e4ac59753c18f488b0e04ff04d5f51cfc80b430786b7a1b181ab36fbded",
-      skills: [
-        "Bitbucket",
-        "Version Control",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 3,
-      img: linkedInImage,
-      name: "Learning SQL Programming",
-      offered_by: "LinkedIn",  
-      date: "July 2024",
-      credential: "https://lnkd.in/gdKGmVnC",
-      skills: [
-        "SQL",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 4,
-      img: hackerRankImage,
-      name: "SQL(Basic)",
-      offered_by: "HackerRank",  
-      date: "July 2024",
-      credential: "https://www.hackerrank.com/certificates/07e6f2f18a32",
-      skills: [
-        "SQL",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 5,
-      img: courseraImage,
-      name: "Work with Components in Figma",
-      offered_by: "Coursera",  
-      date: "July 2024",
-      credential: "https://coursera.org/share/254ac2539e4d67ba6f06ad928b3ede6d",
-      skills: [
-        "Figma",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 6,
-      img: linkedInImage,
-      name: "React.js Essential Training",
-      offered_by: "LinkedIn",  
-      date: "March 2024",
-      credential: "https://www.linkedin.com/learning/certificates/656b409c99151a6dc1b5cd4e3a80256430f9046f2e546c411ad70a7901622bc0?u=76664938",
-      skills: [
-        "React.Js",
-      ],
-      desc: "",
-      
-    },
-    {
-      id: 7,
       img: uowImage,
       name: "Problem Solving International Hackathon'24",
       offered_by: "University of Westminster",  
@@ -541,7 +360,7 @@ export const Bio = {
       
     },
     {
-      id: 8,
+      id: 0,
       img: fidenzAcademyImage,
       name: " API Development and Postman Hands-on Learning Session",
       offered_by: "Fidenz Academy",  
@@ -552,25 +371,11 @@ export const Bio = {
       ],
       desc: "",
       
-    },
-    {
-      id: 9,
-      img: courseraImage,
-      name: "Introduction to Front-End Development",
-      offered_by: "Coursera",  
-      date: "Oct 2023",
-      credential: "https://coursera.org/verify/GL6BA8V55DHM",
-      skills: [
-        "Bootstrap Framework",
-        "HTML",
-        "CSS",
-      ],
-      desc: "",
-      
-    },
+    }
   ];
   
   export const TimeLineData = [
     { year: 2022, text: "Started my journey" },
     { year: 2024, text: "Worked as a Intern Software Engineer" },
+    { year: 2025, text: "Worked as a Associate Software Engineer" },
   ];

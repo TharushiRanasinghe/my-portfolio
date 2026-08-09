@@ -17,9 +17,19 @@ const Description = styled.div`
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    text-align: justify;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
+
+    ul {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 8px;
+        line-height: 1.5;
+    }
+
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -77,14 +87,14 @@ const Top = styled.div`
 `
 
 const Image = styled.img`
-    height: 40px;
-    width:70px;
+    height: 35px;
+    width:55px;
     background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
         height: 30px;
-        width:60px;
+        width:50px;
         border-radius:5px;
     }
 `
@@ -159,8 +169,11 @@ const ExperienceCard = ({ experience }) => {
             </Top>
             <Description>
                 {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
+                    <ul>
+                        {experience.desc.map((item, index) => (
+                            <li key={index}>{item}</li>
+                        ))}
+                    </ul>
                 }
                 {experience?.skills &&
                     <>

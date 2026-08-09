@@ -70,7 +70,7 @@ const TimelineSection = styled.div`
     justify-content: center;
     gap: 12px;
     @media (max-width: 660px) {
-        align-items: end;
+        align-items: center;
     }
 `;
 
@@ -80,7 +80,7 @@ const index =() =>{
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
-                    My education has been a journey of self-discovery and growth.
+                    My academic journey has provided me with a strong foundation in computer science, software engineering, and emerging technologies through coursework, research, and practical projects.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

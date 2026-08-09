@@ -133,13 +133,13 @@ const Contact = () => {
       .then(
         (result) => {
           setAlertSeverity('success');
-          setAlertMessage('Email sent successfully!');
+          setAlertMessage('Your message has been sent successfully.');
           setOpen(true);
           form.current.reset();
         },
         (error) => {
           setAlertSeverity('error');
-          setAlertMessage('Failed to send email.');
+          setAlertMessage('Something went wrong. Please try again later.');
           setOpen(true);
         }
       );
@@ -156,9 +156,11 @@ const Contact = () => {
     <Container id='contact'>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>
+          I'm always open to discussing new opportunities, or exciting software development projects. Feel free to send me a message, and I'll get back to you as soon as possible.
+        </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Let's Connect</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" required />
           <ContactInput placeholder="Your Name" name="from_name" required />
           <ContactInput placeholder="Subject" name="subject" required />

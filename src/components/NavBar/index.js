@@ -12,17 +12,6 @@ const Navbar =() =>{
     return(
         <Nav>
             <NavbarContainer>
-            <NavLogo to='/'>
-                <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-                <Span style={{ fontWeight: 400 }}>
-                    <span style={{ color: theme.primary, fontWeight: 500,fontSize: '1.5em', verticalAlign: 'middle' }}>&lt;</span>
-                    Tharushi
-                    <span style={{ color: theme.primary, fontWeight: 700 }}>&nbsp;/&nbsp;</span>
-                    Ranasinghe
-                    <span style={{ color: theme.primary, fontWeight: 500,fontSize: '1.5em', verticalAlign: 'middle'}}>&gt;</span>
-                </Span>
-                </a>
-            </NavLogo>
             <MobileIcon>
                 <FaBars onClick={() => {
                     setIsOpen(!isOpen)

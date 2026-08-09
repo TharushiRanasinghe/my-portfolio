@@ -79,6 +79,7 @@ const IconWrapper = styled.div`
 
 const SocialMediaIcon = styled.a`
   margin: 0 1rem;
+  gap: 0.5rem; 
   color: ${({ theme }) => theme.text_primary};
   display: flex;
   align-items: center;
@@ -134,6 +135,7 @@ function Footer() {
         <ContactInfo>
           <SocialMediaIcon href={Bio.linkedin} target="_blank">
             <LinkedInIcon />
+            <span>Tharushi Ranasinghe</span>
           </SocialMediaIcon>
           <ContactItem>
             <IconWrapper>
@@ -149,7 +151,7 @@ function Footer() {
           </ContactItem>
         </ContactInfo>
         <Copyright>
-          &copy; 2024 Tharushi Ranasinghe. All rights reserved.
+          &copy; 2026 Tharushi Ranasinghe. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
